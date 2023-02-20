@@ -1,0 +1,38 @@
+/*MEDIAS Q*/
+@media screen and (max-width: 767px){
+    .navbar-brand{
+        display: none;
+    }
+}
+
+@media screen and (max-width:767px){
+     .contenedor_uno{
+     flex-direction: column;
+     display: flex;
+     width: auto;
+     max-width:auto;
+     margin: auto;
+     grid-template-columns:none;
+     grid-gap: 0;
+    
+
+     }
+     .imagen-contacto{
+
+        flex-direction: column;
+        display: flex;
+      
+        max-width: auto;
+        margin: auto;
+        grid-template-columns: none;
+        
+        
+       }
+    }
+
+    @media screen and (max-width: 767px){
+        .grid-principal{
+          flex-direction: column;
+          display: flex;
+        }
+        }

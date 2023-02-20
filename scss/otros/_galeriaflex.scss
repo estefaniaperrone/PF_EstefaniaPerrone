@@ -1,0 +1,15 @@
+/*galeria flex */
+.imagenes-galeria{
+    width: 100%;
+}
+.contenedor-primero{
+    display: flex;
+    padding: 5px;
+}
+.contenedor-galeria {
+    flex:25%;
+    padding: 5px;
+
+            img{
+            margin-top: 5px;
+                   }}

@@ -1,0 +1,24 @@
+/*barra navegacion*/
+.navbar {
+
+    padding: 0;
+    background-color: rgb(73, 37, 37);
+    
+}
+.navbar a:hover {
+    color: aliceblue(244, 240, 237);
+    border: 2px solid aliceblue(241, 241, 238);
+    padding: .25rem .75rem;
+    border-radius: .2rem; 
+    
+}
+.navbar-collapse{
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+}
+.nav-item a{
+    color:$primario;    
+}
+
